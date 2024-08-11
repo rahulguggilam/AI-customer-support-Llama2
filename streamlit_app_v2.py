@@ -7,7 +7,7 @@ st.set_page_config(page_title="🦙💬 AI Customer Support")
 
 # Sidebar setup for API credentials and model selection
 with st.sidebar:
-    st.title('🦙💬 Llama 2 Chatbot')
+    st.title('🦙💬 AI Customer Support')
 
     # Replicate API token management
     if 'REPLICATE_API_TOKEN' in st.secrets:
